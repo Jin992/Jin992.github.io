@@ -38,14 +38,10 @@ An example how to that you can find by a [link](https://github.com/bevyengine/be
 
 Basic implemetaion of the bevy app without ui.
 ```
-    // This app loops forever at 60 fps
-    App::new()
-        .add_plugins(
-            MinimalPlugins.set(ScheduleRunnerPlugin::run_loop(Duration::from_secs_f64(
-                1.0 / 60.0,
-            ))),
-        )
-        .run();
+// This app loops forever at 60 fps
+App::new()
+    .add_plugins(MinimalPlugins.set(ScheduleRunnerPlugin::run_loop(Duration::from_secs_f64(1.0 / 60.0,))),)
+    .run();
 ```
 --
 At this point my game-node can run a server loop (in the future I will name it as Simulation).
