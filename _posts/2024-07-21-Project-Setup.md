@@ -3,6 +3,7 @@
 The first step is to add bevy game engine to the Rust project.
 To do that, we need add bevy dependence to the project Cargo.toml file.
 More info can be found by a  [link](https://bevyengine.org/learn/quick-start/getting-started/).
+
 Latest version of bevy when I'm writing this post is 0.14.
 ```
 Cargo.toml
@@ -31,6 +32,7 @@ fn main() {
 If you build an application and run it all what you will see in result is just a black window.
 
 For my game-node I don't need ui modules like Window, Rendering, Audio, so I need to strip them.
+
 This can be easily done in bevy, to do that `DefaultPlugins` needs to be replaced with `MinimalPlugins` also custom scheduler should be added.
 An example how to that you can find by a [link](https://github.com/bevyengine/bevy/blob/main/examples/app/headless.rs).
 
