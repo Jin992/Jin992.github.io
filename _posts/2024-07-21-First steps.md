@@ -1,32 +1,25 @@
 ## First steps
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+I don't have any previous experience in mmo game development or in game-dev.
+All my previous experience related to the C/C++ programing and networking.
 
-If the file does not start with a header, then the post title will be derived from the filename.
+In this devlog I want to create MMORPG server from scratch.
+My idea is to create scalable Map Centric game nodes.
+In my opinion, this approach has a potential for future scaling.
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+Recently I have started to learn Rust programming language and planning to write my first mmo server on it.
+Due to this, I have chose Bevy game engine as core component of my future mmo server.
+I decided to choose it due to two factors:
+    1. Bevy engine designed around ECS (Entity Complenent System) pattern which I think perfectly fit for implementing MMO server with huge amount of entities.
+    2. Bevy engine is written on Rust.
+
+In this project I want to use cloud native approach, deliver all services as separate docker containers and orchestrate them with kubernetes.
+In my opinion, this approach should be beneficial for future scaling.
 
 ---
-
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
-
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
+### Technologies:
+Main progaming language: Rust
+Scripting language: Lua(not sure yet)
+Orchestration: kubernetes
+Database: not decided yet
+Game client engine: Bevy(maybe UE in the future)
