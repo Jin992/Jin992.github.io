@@ -18,9 +18,9 @@ In my opinion, this approach should be beneficial for future scaling.
 
 ---
 ### Technologies:
-1.Main progaming language: Rust
-2.Scripting language: Lua(not sure yet)
-3.Orchestration: kubernetes
-4.Database: not decided yet
-5.Message Protocol: Protobuf
-6.Game client engine: Bevy(maybe UE in the future)
+1. Main progaming language: Rust
+2. Scripting language: Lua(not sure yet)
+3. Orchestration: kubernetes
+4. Database: not decided yet
+5. Message Protocol: Protobuf
+6. Game client engine: Bevy(maybe UE in the future)
