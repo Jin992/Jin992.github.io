@@ -22,4 +22,5 @@ Main progaming language: Rust
 Scripting language: Lua(not sure yet)
 Orchestration: kubernetes
 Database: not decided yet
+Message Protocol: Protobuf
 Game client engine: Bevy(maybe UE in the future)
